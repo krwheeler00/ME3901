@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  // part A of the lab: blink an LED on and off repeatedly
+  // part A of the lab: blink an LED on and off repeatedly, used also for part E with the potentiometer 
   digitalWrite(led_pin1, HIGH);
   delay(1000);
   digitalWrite(led_pin1, LOW);
